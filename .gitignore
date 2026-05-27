@@ -1,3 +1,27 @@
-__pycache__/
+# Raw dataset — 214MB, too large for GitHub
 data/raw/
+
+# Trained model weights — large binary files
+data/processed/*.pt
+
+# Pickle files — dataset splits are large
+data/processed/train.pkl
+data/processed/val.pkl
+data/processed/test.pkl
+data/processed/labeled_wafers.pkl
+
+# Keep label_encoder.pkl — it's small and needed for the app
+# Keep class_weights.pt — same
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
 .ipynb_checkpoints/
+
+# Mac
+.DS_Store
+
+# Conda/env
+.env
+*.egg-info/
