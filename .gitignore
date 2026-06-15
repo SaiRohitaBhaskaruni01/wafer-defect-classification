@@ -25,3 +25,6 @@ __pycache__/
 # Conda/env
 .env
 *.egg-info/
+
+mlflow.db
+*.db
